@@ -15,9 +15,11 @@ Pseudo kod
 - Fråga användaren om den vill visa tidigare resultat.
 - Visa tidigare resultat
 - Fråga användaren om den vill avsluta eller fortsätta.
+
 GIT
 Skapa en GIT repository, och använda sig av GIT genom att göra olika versionen av din kod.
-Checklista
+
+Checklista:
 • Input/output
 • Lista med historik
 • Kontrollstrukturer
