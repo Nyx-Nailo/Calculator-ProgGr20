@@ -3,6 +3,19 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Calculator
 {
+    /*
+    Jag valde att dela upp mitt program i 2 projekt.
+    Det första projektet löser matematiska uträkningar och styr hur programmet körs
+    Det andra projektet hanterar in- och utmatning.
+    Anledningen till detta är att det blir lättare att läsa koden och jag har bara en class som skriver till consolen.
+    Det gör det lättare att hantera text flödet i consolen.
+
+    Förbättringar:
+        Math.cs och Input.cs känns onödiga i nu läget men har de som separata classer för att eventullt utveckla dem.
+        Window skulle kunna utvecklas så att den kan hantera när inmatning blir så lång att den ersätter delar av ramen.
+        Window borde vara en singelton eftersom jag bara har ett fönster och behöver inte kunna ha fler instancer av window.
+        Stöd för fler matematiska operationer t.ex. Exponentiering(^) och roten(√)
+     */
     internal class Program
     {
         static void Main(string[] args)
