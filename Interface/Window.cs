@@ -103,6 +103,7 @@
             Console.Clear();
             Border();
         }
+        // Avslutar programmet
         public void Exit()
         {
             Console.Clear();
@@ -191,7 +192,7 @@
             return c;
         }
         //Skriver ut resultat i grönt eller vid fel i rött
-        public void PrintResult(string Text, bool Error)
+        public void PrintResult(string Text, bool Error = false)
         {
             Console.SetCursorPosition(startCol, currentWriteLine + 1);
             if (Error) { Console.ForegroundColor = ConsoleColor.Red; }
