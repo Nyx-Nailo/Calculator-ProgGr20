@@ -25,6 +25,8 @@ Checklista:
 • Kontrollstrukturer
 • Välja lämpligt designmönster
 • Källkodshantering med GIT
+
+
 Betygsättning
 Den här inlämningen kontrollerar följande läranderesultat
 Kunskaper om/i:
